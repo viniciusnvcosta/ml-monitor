@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyscora-monitor"
+version = "0.1.0"
+description = "enviroment for scora monitor"
+authors = ["oncase <service@oncase.com.br>"]
+readme = "README.md"
+packages = [{include = "pyscora_monitor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyarrow = "^11.0.0"
+scikit-learn = "^1.0"
+pandas = "^2"
+numpy = "^1.21.4"
+mlflow = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

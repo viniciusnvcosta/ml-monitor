@@ -1,0 +1,28 @@
+# poetry
+poetry.lock
+
+# data
+data/
+
+# standard python gitignore
+
+    ```
+    # Byte-compiled / optimized / DLL files
+    __pycache__/
+    **/__pycache__/
+    src/**/__pycache__/
+    src/__pycache__/**
+    *.py[cod]
+    *$py.class
+
+    # Distribution / packaging
+    .Python
+    .conda/
+    build/
+    lib/
+    lib64/
+    var/
+    wheels/
+    pip-wheel-metadata/
+    share/python-wheels/
+    ```

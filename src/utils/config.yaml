@@ -1,0 +1,28 @@
+- project_id: projeto-teste
+  tenants:
+    - tenant_id: cliente-teste
+      model_types:
+        - type: classification
+          models:
+            - model_name: classificador_churn_teste
+              data: s3://oncase-monitor/projeto-teste/cliente-teste/classification/classificador_churn_teste/classificador_churn_teste.parquet
+        # - type: regression
+        #   models:
+        #     - model_name: regressor_churn_teste
+        #       data: s3://oncase-monitor/projeto-teste/cliente-teste/regression/regressor_churn_teste/regressor_churn_teste.parquet
+
+
+
+
+
+
+
+
+# - project_id: <project_id>
+#   tenants:
+#     - tenant_id: <tenant_id>
+#       model_types:
+#         - type: <model_type>
+#           models:
+#             - model_name: <model_name>
+#               data: <data>
