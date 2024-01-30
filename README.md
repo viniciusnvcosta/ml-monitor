@@ -1,15 +1,15 @@
-pyscora-monitor
+ml-monitor
 ===
-## passos da amostra (Minerador)
----
+
+Projeto para monitorar modelos de machine learning em produção.
 
 ### 1. dados de entrada
 
 - pegar nome do modelo
 
-> `s3://oncase-sebraepe/dev/staging/models/recsys_crossvalidation_model_produto_pf/recsys_crossvalidation_model_produto_pf.pkl`
+> `s3://project/dev/staging/models/recsys_model/recsys_model_3000.pkl`
 
-- `recsys_crossvalidation_model_produto_pf`
+- nome: `recsys_model_3000`
 
 - adicionar hash da execução
 
